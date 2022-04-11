@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html" charset="utf-8" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <title>My test page</title>
+    <link rel="stylesheet" href="stylehome.css" />
+  </head>
+  <body>
+    <nav class="navMenu">
+      <a href="home.html">Home</a>
+      <a href="projet.html">Projets</a>
+      <a href="contact.html">Contact</a>
+      <div class="dot"></div>
+    </nav>
+    <main>
+      <div id="contgene">
+        <div>
+          <p>This is <span id="typed"></span></p>
+          <p>This is my <span id="typed2"></span></p>
+        </div>
+        <img id="penguin" src="data/Penguin.png">
+      </div>
+      <script>
+        var typed = new Typed("#typed", {
+          strings: [
+            "Donovan Briend",
+            "a future developper",
+            "a student",
+          ],
+          typeSpeed: 40,
+          backSpeed: 40,
+          loop: true,
+        });
+        var typed = new Typed("#typed2", {
+          strings: [
+            "Portfolio", 
+            "life",
+            "experience"
+          ],
+          typeSpeed: 40,
+          backSpeed: 40,
+          loop: true,
+        });
+      </script> 
+    </main>
+    <article>
+      <fieldset>
+        <legend>Présentation</legend>
+        <div id="pres">
+          <p>Je m'appelle Donovan Briend, agé de 18 ans je suis actuellement en 1ère année de BUT Informatique à Gradignan.</p>
+          <p>Né dans un monde guidé par l'informatique je me suis interessé dès mon plus jeune âge à ce milieu, plus précisément vers les jeux-vidéos.</p>
+          <p>Ces derniers m'ont guidé vers la voie que j'emprunte donc aujourd'hui.</p>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Mes outils</legend>
+        <img src="data/OUTILS.png">
+      </fieldset>
+    </article>
+    
+    <footer>
+      <p id="stud">IT Student based in Bordeaux</p>
+    </footer>
+  </body>
+</html>
