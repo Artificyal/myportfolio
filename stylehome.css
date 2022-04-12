@@ -23,6 +23,150 @@ article{
   justify-content: space-between;
   padding-right: 10vh;
 }
+
+p {font-size: 1.5em;
+  color: red;}
+
+@media screen and (max-width: 130em) {
+  #contgene {
+    font-size: xx-large;
+    width: 120vw;
+    justify-content: space-between;
+  }
+ article{
+   flex-direction:column;
+   align-items: center;
+ }
+ fieldset {
+    width: 80vw;
+    height:auto;
+   }
+   #outils{
+    width: 80vw !important;
+    height:auto !important;
+   }
+ body{
+   overflow: visible !important;
+   overflow-x : hidden !important;
+ }
+}
+@media screen and (max-width: 105em) {
+  #contgene {
+    font-size: xx-large;
+    width: 125vw;
+    justify-content: space-between;
+  }
+ article{
+   flex-direction:column;
+   align-items: center;
+ }
+ fieldset {
+    width: 80vw;
+    height:auto;
+   }
+   #outils{
+    width: 80vw !important;
+    height:auto !important;
+   }
+ body{
+   overflow: visible !important;
+   overflow-x : hidden !important;
+ }
+}
+@media screen and (max-width: 90em) {
+  #contgene {
+    font-size: x-large;
+    width: 130vw;
+    justify-content: space-between;
+  }
+ article{
+   flex-direction:column;
+   align-items: center;
+ }
+ fieldset {
+    width: 80vw;
+    height:auto;
+   }
+   #outils{
+    width: 80vw !important;
+    height:auto !important;
+   }
+ body{
+   overflow: visible !important;
+   overflow-x : hidden !important;
+ }
+}
+@media screen and (max-width: 70em) {
+  #contgene {
+    font-size: large;
+    width: 140vw;
+    justify-content: space-between;
+  }
+  
+ article{
+   flex-direction:column;
+   align-items: center;
+ }
+ fieldset {
+    width: 80vw;
+    height:auto;
+   }
+   #outils{
+    width: 80vw !important;
+    height:auto !important;
+   }
+ body{
+   overflow: visible !important;
+   overflow-x : hidden !important;
+ }
+}
+@media screen and (max-width: 40em) {
+  #contgene {
+    font-size: x-small;
+    width: 200vw;
+    height: auto !important;
+    flex-direction:column;
+    justify-content: space-between;
+  }
+  #penguin{
+    display: none;
+  }
+  legend{
+    font-size: medium !important;
+  }
+ article{
+   flex-direction:column;
+   align-items: center;
+ }
+ fieldset {
+   font-size: x-small;
+    width: 80vw;
+    height:auto;
+   }
+   #outils{
+    width: 80vw !important;
+    height:auto !important;
+   }
+ body{
+   overflow: visible !important;
+   overflow-x : hidden !important;
+ }
+ .navMenu{
+   font-size: x-small !important;
+ }
+ #stud{
+   font-size: x-small !important;
+ }
+}
+
+#penguin{
+  height: 15vh;
+  width: auto;
+}
+#outils {
+  height: 40vh;
+  width: auto;
+}
 legend{
   color: whitesmoke;
   font-size: xxx-large;
@@ -56,7 +200,7 @@ span{
 }
 body{
     background-color: #374151;
-    overflow: hidden;
+    overflow:hidden;
 }
 
 ul {
