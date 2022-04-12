@@ -23,7 +23,7 @@ article{
   justify-content: space-between;
   padding-right: 10vh;
 }
-@media screen and (max-width: 105em) {
+@media screen and (max-width: 100em) {
   #contgene {
     font-size: xx-large;
     width: 125vw;
