@@ -185,3 +185,25 @@ body {
       text-decoration: none;
       color: whitesmoke;
   }
+
+  @media screen and (max-width: 40em) {
+    .container{
+      margin-left: 5em;
+    }
+  }
+  @media screen and (max-width: 60em) {
+    .container{
+      margin-left: 5em;
+    }
+  }
+  @media screen and (max-width: 80em) {
+    .container{
+      margin-left: 10em;
+    }
+  }
+  @media screen and (max-width: 100em) {
+    .container{
+      margin-left: 20em;
+    }
+  }
+    
